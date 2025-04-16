@@ -86,6 +86,6 @@ df_culture_titles['category'] = 'Culture'
 df_titles = pd.concat([df_titles, df_culture_titles],
                           axis='rows', ignore_index=True)
 
-
+#
 df_titles.to_csv('{}_titles_Social_Culture.csv'.format(datetime.datetime.now().strftime('%Y%m%d')), index=False)
 df_titles.info()
