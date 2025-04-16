@@ -5,6 +5,8 @@ from selenium.webdriver.chrome.options import Options as ChromeOptions
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 
+print('test')
+exit()
 options = ChromeOptions()
 
 options.add_argument('lang=ko_KR') # 한국어를 사용하는 크롬 브라우저 옵션
