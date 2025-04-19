@@ -1,2 +1,0 @@
-print("Hiiiiiii")
-#sewilewfefwlkevkl
